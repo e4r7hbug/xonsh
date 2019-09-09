@@ -33,6 +33,14 @@ def test_pip_list_re(line):
         "![thewholepipandpaboodle uninstall",
         "$[littlebopip show",
         "!(boxpip uninstall",
+        "pipfile",
+        "Pipfile",
+        "./pipeline.py",
+        "vim pip",
+        "vim pipeline",
+        "vim with-pip.yml",
+        "vim pip.conf",
+        "vim Pipfile",
     ],
 )
 def test_pip_list_re(line):
